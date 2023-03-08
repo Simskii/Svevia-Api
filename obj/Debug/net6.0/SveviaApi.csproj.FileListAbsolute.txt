@@ -26,3 +26,5 @@
 /Users/simon/Projects/SveviaApi/obj/Debug/net6.0/SveviaApi.genruntimeconfig.cache
 /Users/simon/Projects/SveviaApi/obj/Debug/net6.0/ref/SveviaApi.dll
 /Users/simon/Projects/SveviaApi/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/simon/Projects/SveviaApi/bin/Debug/net6.0/SveviaApi.xml
+/Users/simon/Projects/SveviaApi/obj/Debug/net6.0/SveviaApi.xml

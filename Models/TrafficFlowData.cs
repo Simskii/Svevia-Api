@@ -24,10 +24,25 @@ namespace SveviaApi.Trafikverket
 
     public class TrafficFlow
     {
+        /// <summary>
+        /// Average vehicle speed
+        /// </summary>
         public float AverageVehicleSpeed { get; set; }
+        /// <summary>
+        /// Average vehicle flow rate
+        /// </summary>
         public int VehicleFlowRate { get; set; }
+        /// <summary>
+        /// Type of vehicle
+        /// </summary>
         public string? VehicleType { get; set; }
+        /// <summary>
+        /// Time stamp when data is registred
+        /// </summary>
         public DateTime MeasurementTime { get; set; }
+        /// <summary>
+        /// If row is modified, when.
+        /// </summary>
         public DateTime ModifiedTime { get; set; }
     }
 

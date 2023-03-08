@@ -13,6 +13,11 @@ public class TrafficFlowController : ControllerBase
         this._sveviaClient = sveviaClient;
     }
 
+
+    /// <summary>
+    /// Returns traffic flow data
+    /// </summary>
+    /// <returns>An array of recent traffic flow data</returns>
     [HttpGet]
     public async Task<TrafficFlow[]> GetTrafficFlow()
     {
